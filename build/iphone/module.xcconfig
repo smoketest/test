@@ -1,0 +1,5 @@
+// this is a generated file - DO NOT EDIT
+
+TI_STYLEDLABEL_OTHER_LDFLAGS=$(inherited) -ObjC -all_load -framework ImageIO -framework UIKit -framework CoreGraphics -framework CoreText -framework QuartzCore -framework MediaPlayer -framework AVFoundation
+
+OTHER_LDFLAGS=$(inherited) $(TI_STYLEDLABEL_OTHER_LDFLAGS) 

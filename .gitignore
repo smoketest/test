@@ -1,0 +1,8 @@
+tmp
+*.class
+*.pyc
+*.pyo
+.fastdev.lock
+.svn
+_svn
+build
