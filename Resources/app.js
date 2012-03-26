@@ -171,4 +171,9 @@
 // win.open();
 // // Test
 
-require('/lib/module1/test').go();
+var test = require('/lib/module1/test');
+
+test.start();
+setTimeout(function(){
+	test.stop();
+}, 5000);
